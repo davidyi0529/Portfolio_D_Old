@@ -8,24 +8,51 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <title>Portfolio_D,</title>
+    <title>Portfolio_D!</title>
   </head>
-  <body>
-    
+  <body style="background-color: lightgrey;">    
     <!-- Navigation bar w/ buttons  -->
       <!-- Brand image logo -->
-    <nav class="navbar fixed-top navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
-      <img src="https://github.com/davidyi0529/Portfolio_D/blob/master/assets/images/Navbar%20brand.png?raw=true" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-      David Yi
-    </a>
-    <!-- Navigation links -->
-    <nav class="nav">
-      <a class="nav-link active" href="#">About</a>
-      <a class="nav-link" href="#">Portfolio</a>
-      <a class="nav-link" href="#">Contact</a>
+      <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+        <img src="https://github.com/davidyi0529/Portfolio_D/blob/master/assets/images/Navbar%20brand.png?raw=true" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        David Yi
+      </a>
+      <!-- Navigation links -->
+      <nav class="nav">
+        <!-- Font color changed to white -->
+        <a class="nav-link active text-light bg-dark" href="#">About</a>
+        <a class="nav-link text-light bg-dark" href="#">Portfolio</a>
+        <a class="nav-link text-light bg-dark" href="#">Contact</a>
+      </nav>
     </nav>
-  </nav>
+
+  <!-- Use container to create space -->
+  <div class="container mt-5">
+    
+    <div class="card mb-3">
+        <h1 class="card-header" style="font-weight: bolder; color: orchid;">About Me</h1>
+            <div class="row">
+                <div class="col-md-4 mt-4 mb-4">
+                    <img src="http://placeimg.com/800/300/tech/grayscale?t" class="card-img" alt="About Me">
+                </div>   
+              <div class="col-md-8">
+                <div class="card-body">  
+                  <p class="card-text">Breaking it down, here’s how it works:
+
+                    Containers provide a means to center and horizontally pad your site’s contents. Use .container for a responsive pixel width or .container-fluid for width: 100% across all viewport and device sizes.
+                    Rows are wrappers for columns. Each column has horizontal padding (called a gutter) for controlling the space between them. This padding is then counteracted on the rows with negative margins. This way, all the content in your columns is visually aligned down the left side.
+                    In a grid layout, content must be placed within columns and only columns may be immediate children of rows.
+                    Thanks to flexbox, grid columns without a specified width will automatically layout as equal width columns. For example, four instances of .col-sm will each automatically be 25% wide from the small breakpoint and up. See the auto-layout columns section for more examples.
+                    Column classes indicate the number of columns you’d like to use out of the possible 12 per row. So, if you want three equal-width columns across, you can use .col-4.
+                    Column widths are set in percentages, so they’re always fluid and sized relative to their parent element..</p>
+              </div>
+            </div>
+            </div>
+          </div>
+      
+    </div>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
