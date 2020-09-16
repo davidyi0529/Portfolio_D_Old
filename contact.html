@@ -10,22 +10,93 @@
 
     <title>Portfolio_D,</title>
   </head>
-  <body>
-    
+  
+  <body style="background-color: lightgrey;"> 
+
     <!-- Navigation bar w/ buttons  -->
       <!-- Brand image logo -->
-    <nav class="navbar fixed-top navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">
-      <img src="https://github.com/davidyi0529/Portfolio_D/blob/master/assets/images/Navbar%20brand.png?raw=true" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
-      David Yi
-    </a>
-    <!-- Navigation links -->
-    <nav class="nav">
-      <a class="nav-link active" href="#">About</a>
-      <a class="nav-link" href="#">Portfolio</a>
-      <a class="nav-link" href="#">Contact</a>
+      <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+        <img src="https://github.com/davidyi0529/Portfolio_D/blob/master/assets/images/Navbar%20brand.png?raw=true" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        David Yi
+      </a>
+      <!-- Navigation links -->
+      <nav class="nav">
+        <!-- Font color changed to white -->
+        <a class="nav-link active text-light bg-dark" href="#">About</a>
+        <a class="nav-link text-light bg-dark" href="#">Portfolio</a>
+        <a class="nav-link text-light bg-dark" href="#">Contact</a>
+      </nav>
     </nav>
-  </nav>
+    
+     <!-- Use container to create space -->
+    <div class="container mt-5">
+    
+     <!-- Use container to create space -->
+      <div class="card mb-3">
+          <h1 class="card-header" style="font-weight: bolder; color: orchid;">Contact</h1>
+              <div class="row">
+                  <div class="col-md-4 mt-4 mb-4">
+                    <img src="http://placeimg.com/800/300/tech/grayscale?t" class="card-img" alt="Contact">
+                      </div>   
+
+          <form>
+
+            <div class="form-row">
+              <div class="col-sm-6 my-3">
+              <input type="text" class="form-control" placeholder="First name">
+              </div>
+                  <div class="col-sm-6 my-3">
+                  <input type="text" class="form-control" placeholder="Last name">
+                  </div>
+            </div>
+
+                   
+             <div class="form-row align-items-center">
+                <div class="col-sm-6 my-3">
+                <label class="sr-only" for="inlineFormInputName">Name</label>
+                  <input type="text" class="form-control" id="inlineFormInputName" placeholder="Email Address">
+                </div>
+                    <div class="col-sm-6 my-3">
+                    <label class="sr-only" for="inlineFormInputGroupUsername">Domain</label>
+                       <div class="input-group">
+                          <div class="input-group-prepend">
+                             <div class="input-group-text">@</div>
+                          </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Domain">
+                      </div>
+                    </div>        
+              </div> 
+
+                      
+               <div class="form-group">
+                 <label for="Message">Message:</label>
+                 <textarea class="form-control" rows="5" id="Message"></textarea>
+               </div>
+
+
+          <div class="form-row">
+           <div class="col-sm-6 my-3 align-items-center">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+             <label class="form-check-label" for="gridCheck">
+             Remember me
+            </label>
+           </div>
+          </div>
+          <button type="submit" class="btn btn-primary mb-5">Sign in</button>
+           
+              </form>  
+            </div>
+          </div>
+        </div>    
+                      
+   
+        
+
+      <nav class="navbar fixed-bottom navbar-light bg-light">
+    <a class="navbar-brand" href="#"></a>
+    <img src="https://github.com/davidyi0529/Portfolio_D/blob/master/assets/images/Navbar%20brand.png?raw=true" width="30" height="30" class="d-inline-block align-top"  alt="David Yi" loading="lazy">
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
